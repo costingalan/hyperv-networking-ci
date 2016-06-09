@@ -192,9 +192,6 @@ Add-Content "$env:APPDATA\pip\pip.ini" $pip_conf_content
 & easy_install -f http://dl.openstack.tld:8080/cloudbase/CI/+simple/pip pip
 & pip install -U setuptools
 & pip install -U --pre PyMI
-& pip install cffi
-& pip install numpy
-& pip install pycrypto
 & pip install amqp==1.4.9
 
 popd
